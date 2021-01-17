@@ -9,7 +9,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML5
 - CSS
 
-# Layout
+# 🔖 Layout
 
 ![Landing Page Concept - Google Chrome 04_05_2020 23_27_36](https://user-images.githubusercontent.com/63323533/81341315-b501cc00-9087-11ea-8cca-d1bd830ca80c.png)
 
