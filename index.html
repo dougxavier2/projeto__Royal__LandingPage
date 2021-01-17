@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Royal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+</head>
+
+<body>
+    <div class="temp"></div>
+    <div class="first-block"></div>
+    <div class="second-block"></div>
+    <div class="loader">
+        <ul>
+            <li>N</li>
+            <li>E</li>
+            <li>W</li>
+            <br>
+            <li>C</li>
+            <li>O</li>
+            <li>L</li>
+            <li>L</li>
+            <li>E</li>
+            <li>C</li>
+            <li>T</li>
+            <li>I</li>
+            <li>O</li>
+            <li>N</li>
+        </ul>
+    </div>
+    <div class="third-block"></div>
+    <div class="menu">
+        <ion-icon name="menu"></ion-icon>
+    </div>
+    <div class="logo">
+        <span>Royal</span>
+    </div>
+    <div class="content">
+        <div class="heading">
+            <span>WELCOME, REBEL JOURNEY</span>
+        </div>
+        <div class="desc">
+            <p>Em vez de criar uma coleção símples e clássica, a Royal visa criar algo único e especial para todos, fazendo com que você se sinta parte da Família. Colocando toda a nossa criatividade em todos os detalhes: jóias, eventos e filmes para se
+                tornar mais do que uma marca, um estilo de vida.</p>
+        </div>
+    </div>
+    <div class="img">
+        <img src="img/imagem-principal.webp" alt="">
+    </div>
+    <div class="media">
+        <ul>
+            <li>
+                <ion-icon name="logo-facebook"></ion-icon>
+            </li>
+            <li>
+                <ion-icon name="logo-instagram"></ion-icon>
+            </li>
+            <li>
+                <ion-icon name="logo-twitter"></ion-icon>
+            </li>
+            <li>
+                <ion-icon name="logo-youtube"></ion-icon>
+            </li>
+        </ul>
+    </div>
+    <div class="watch">
+        <ion-icon name="play"></ion-icon>
+    </div>
+
+    <script type="text/javascript">
+        TweenMax.from(".logo", 1.6, {
+            delay: 6.4,
+            opacity: 0,
+            y: 30,
+            ease: Expo.easeInOunt
+        });
+
+        TweenMax.from(".menu", 1.6, {
+            delay: 6.5,
+            opacity: 0,
+            y: 30,
+            ease: Expo.easeInOunt
+        });
+
+        TweenMax.from(".heading", 1.6, {
+            delay: 6.6,
+            opacity: 0,
+            y: 30,
+            ease: Expo.easeInOunt
+        });
+
+        TweenMax.from(".desc", 1.6, {
+            delay: 6.7,
+            opacity: 0,
+            y: 30,
+            ease: Expo.easeInOunt
+        });
+
+        TweenMax.from(".watch", 1.6, {
+            delay: 6.9,
+            opacity: 0,
+            y: 30,
+            rotation: 90,
+            ease: Expo.easeInOunt
+        });
+
+        TweenMax.staggerFrom(".media ul li", 2, {
+            delay: 7,
+            opacity: 0,
+            y: 40,
+            ease: Expo.easeInOut
+        }, 0.2);
+    </script>
+
+</body>
+
+</html>
